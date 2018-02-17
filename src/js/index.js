@@ -1,0 +1,1 @@
+const Aframe = require('aframe');

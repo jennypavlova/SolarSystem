@@ -1,0 +1,15 @@
+# Logs
+logs/
+Log/
+Logs/*.log
+logs
+*.log
+npm-debug.log*
+
+# node modules
+node_modules
+node_modules/**/*
+# Others
+dist
+dist/*
+

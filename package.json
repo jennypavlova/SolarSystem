@@ -1,0 +1,48 @@
+{
+  "name": "SolarSystem",
+  "version": "1.0.0",
+  "description": "Solar System model",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "start-watch": "./node_modules/.bin/webpack --watch",
+    "wp-server": "./node_modules/.bin/webpack-dev-server --progress --colors --config ./webpack.config.js",
+    "dev": "npm run wp-server"
+  },
+  "keywords": [
+    "Solar System",
+    "AFrame"
+  ],
+  "author": "Jenny Pavlova",
+  "license": "ISC",
+  "dependencies": {
+    "aframe": "^0.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "concurrently": "^3.5.1",
+    "copy-webpack-plugin": "^4.4.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.6.1",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack-manifest-plugin": "^1.3.2"
+  }
+}
