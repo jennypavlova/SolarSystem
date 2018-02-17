@@ -2,7 +2,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin'),
     CleanWebpackPlugin = require('clean-webpack-plugin'),
     HtmlWebpackPlugin = require('html-webpack-plugin'),
     ManifestPlugin = require('webpack-manifest-plugin'),
-    FaviconsWebpackPlugin = require('favicons-webpack-plugin'),
     CopyWebpackPlugin = require('copy-webpack-plugin'),
     path = require('path'),
 

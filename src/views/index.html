@@ -5,10 +5,30 @@
     <a-scene>
       <a-assets>
         <img id="sky" src="/img/sky.jpg">
+        <img id="saturn_ring" src="/img/saturn_ring.png">
       </a-assets>
-      <a-sky src="#sky"></a-sky>
-      <a-sphere src="./img/earth_atmos_2048.jpg" position="0 1.25 -5" radius="1.25" segments.height="4">
+      <a-sphere src="./img/neptune.jpg" position="25 2.127 -20" radius="2" >
       </a-sphere>
-  </a-scene>
+      <a-sphere src="./img/uranus.jpg" position="18 2.127 -20" radius="2.5" >
+      </a-sphere>
+      <a-sphere src="./img/saturn.jpg" position="10 2.127 -20" radius="2.7" >
+      </a-sphere>
+      <a-ring src="#saturn_ring" position="10 2.127 -20" rotation="60 0 0" radius-inner="3.2" radius-outer="3.7"></a-ring>
+      <a-sphere src="./img/jupiter.jpg" position="2 2.127 -20" radius="3.5" >
+      </a-sphere>
+      <a-sphere src="./img/mars.jpg" position="-4 2.127 -20" radius="2" >
+      </a-sphere>
+      <a-sphere src="./img/moon.jpg" position="-7 6 -20" radius="0.35"" >
+      </a-sphere>
+      <a-sphere src="./img/earth_atmos_2048.jpg" position="-10 2.127 -20" radius="2.5"" >
+      </a-sphere>
+      <a-sphere src="./img/venus.jpg" position="-16 2.127 -20" radius="2" >
+      </a-sphere>
+      <a-sphere src="./img/mercury.jpg" position="-19.5 2.127 -20" radius="1">
+      </a-sphere>
+      <a-sphere src="./img/sun.jpg" position="-27 2.127 -20" radius="5"">
+      </a-sphere>
+      <a-sky src="#sky"></a-sky>
+    </a-scene>
   </body>
 </html>
