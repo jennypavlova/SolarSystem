@@ -7,35 +7,46 @@
         <img id="sky" src="/img/sky.jpg">
         <img id="saturn_ring" src="/img/saturn_ring.png">
       </a-assets>
+      <a-camera position="0 1 2">
+        <a-cursor color="#10f900"></a-cursor>
+      </a-camera>
       <a-sphere src="./img/neptune.jpg" position="28 2.127 -20" radius="2" >
+        <a-animation direction="alternate" attribute="position" from="28 2.127 -20" to="28 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
       <a-text color="white" position="26 -2 -19" value="Neptune" width="20"></a-text>
       <a-sphere src="./img/uranus.jpg" position="21 2.127 -20" radius="2.5" >
+        <a-animation direction="alternate" attribute="position" from="21 2.127 -20" to="21 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
       <a-text color="white" position="19.5 -2 -19" value="Uranus" width="20"></a-text>
-      <a-sphere src="./img/saturn.jpg" position="13 2.127 -20" radius="2.7" >
+      <a-sphere class="saturn" src="./img/saturn.jpg" position="13 2.127 -20" radius="2.7" >
       </a-sphere>
-      <a-ring src="#saturn_ring" position="13 2.127 -20" rotation="60 0 0" radius-inner="3.2" radius-outer="3.7"></a-ring>
+      <a-ring class="saturn" src="#saturn_ring" position="13 2.127 -20" rotation="60 0 0" radius-inner="3.2" radius-outer="3.7"></a-ring>
+      </a-entity>
       <a-text color="white" position="11.5 -2 -19" value="Saturn" width="20"></a-text>
       <a-sphere src="./img/jupiter.jpg" position="5 2.127 -20" radius="3.5" >
+        <a-animation direction="alternate" attribute="position" from="5 2.127 -20" to="5 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
       <a-text color="white" position="3.5 -2 -19" value="Jupiter" width="20"></a-text>
       <a-sphere src="./img/mars.jpg" position="-1 2.127 -20" radius="2" >
+        <a-animation direction="alternate" attribute="position" from="-1 2.127 -20" to="-1 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
       <a-text color="white" position="-2 -2 -19" value="Mars" width="20"></a-text>
-      <a-sphere src="./img/moon.jpg" position="-5 5 -20" radius="0.35"" >
+      <a-sphere class="mars" src="./img/moon.jpg" position="-5 5 -20" radius="0.35"" >
       </a-sphere>
       <a-text color="white" position="-5 6 -19" value="Moon" width="20"></a-text>
       <a-sphere src="./img/earth_atmos_2048.jpg" position="-8 2.127 -20" radius="2.5"" >
       </a-sphere>
       <a-text color="white" position="-8.7 -2 -19" value="Earth" width="20"></a-text>
       <a-sphere src="./img/venus.jpg" position="-14 2.127 -20" radius="2" >
+        <a-animation direction="alternate" attribute="position" from="-14 2.127 -20" to="-14 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
       <a-text color="white" position="-14.5 -2 -19" value="Venus" width="20"></a-text>
       <a-sphere src="./img/mercury.jpg" position="-18.5 2.127 -20" radius="1">
+        <a-animation direction="alternate" attribute="position" from="-18.5 2.127 -20" to="-18.5 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
       <a-text color="white" position="-19.5 -2 -19" value="Mercury" width="20"></a-text>
       <a-sphere src="./img/sun.jpg" position="-27 2.127 -20" radius="5"">
+        <a-animation direction="alternate" attribute="position" from="-27 2.127 -20" to="-27 4 -20" repeat="infinite" begin="click"></a-animation>
       </a-sphere>
 <!--<a-box color="white" depth="0.1" position="-27 -5 -20" height="2" width="5"></a-box> -->
       <a-text color="white" position="-28 -5 -19" value="Sun" width="20"></a-text>
