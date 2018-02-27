@@ -16,19 +16,23 @@
         <img id="venus" src="/img/venus.jpg">
         <img id="mercury" src="/img/mercury.jpg">
         <img id="sun" src="/img/sun.jpg">
+        <img id="font-texture" src="/img/font-texture.png">
       </a-assets>
-      <a-camera position="-7 17 -27" rotation="-17 -164 0">
+
+      <a-camera position="0 10 -28" rotation="-19 -189 0">
         <a-cursor color="#10f900"></a-cursor>
       </a-camera>
       <!-- Neptune -->
       <a-sphere src="#neptune" position="-50.835 4.913 4.463" radius="2">
         <a-animation direction="alternate" attribute="position" from="-50.835 4.913 4.463" to="-50.835 8 4.463" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="white" position="-40 9 1.463" rotation="0 160 0" value="Neptune" width="45"></a-text>
 
       <!-- Uranus -->
       <a-sphere src="#uranus" position="4.875 4.313 -43.733" radius="2.5">
         <a-animation direction="alternate" attribute="position" from="4.875 4.313 -43.733" to="4.875 8 -43.733" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="white" position="0.875 8.5 -40.733" rotation="0 2 0" value="Uranus" width="45"></a-text>
 
       <!-- Saturn -->
       <a-torus class="saturn" src="#saturn_ring" position="28.16 4 -22" rotation="60 0 0" radius="4" radius-tubular="0.1">
@@ -37,36 +41,44 @@
       <a-sphere class="saturn" src="#saturn" position="28.16 4 -22" radius="2.7" material="" geometry="">
         <a-animation direction="alternate" attribute="position" from="28.16 4 -22" to="28.16 8 -22" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="30.16 9 -25" rotation="0 -75 0" value="Saturn" width="40"></a-text>
 
       <!-- Jupiter -->
       <a-sphere src="#jupiter" position="-20.29 5.105 15.197" radius="3.5">
         <a-animation direction="alternate" attribute="position" from="-20.29 5.105 15.197" to="-20.29 9 15.197" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="-20.29 9.105 15.197" rotation="0 160 0" value="Jupiter" width="40"></a-text>
 
       <!-- Mars -->
       <a-sphere src="#mars" position="17.745 4.992 7.771" radius="2">
         <a-animation direction="alternate" attribute="position" from="17.745 4.992 7.771" to="17.745 8 7.771" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="18.745 9 7.771" rotation="0 160 0" value="Mars" width="40"></a-text>
 
       <!-- Moon -->
       <a-sphere src="#moon" position="-7.093 7.844 -15.335" radius="0.35">
         <a-animation direction="alternate" attribute="position" from="-7.093 7.844 -15.335" to="-7.093 9.5 -15.335" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="-6.093 7 -15.335" rotation="0 160 0" value="Moon" width="20"></a-text>
 
       <!-- Earth -->
       <a-sphere src="#earth" position="-8.386 5.215 -12.659" radius="2.5">
         <a-animation direction="alternate" attribute="position" from="-8.386 5.215 -12.659" to="-8.386 8 -12.659" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="-5.386 10 -14.659" rotation="0 160 0" value="Earth" width="40"></a-text>
 
       <!-- Venus -->
       <a-sphere src="#venus" position="3.19 5.677 -8.855" radius="2">
         <a-animation direction="alternate" attribute="position" from="3.19 5.677 -8.855" to="3.19 9 -8.855" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="5.19 9 -11" rotation="0 160 0" value="Venus" width="40"></a-text>
 
       <!-- Mercury -->
       <a-sphere src="#mercury" position="6.671 5.959 -0.331" radius="1">
         <a-animation direction="alternate" attribute="position" from="6.671 5.959 -0.331" to="6.671 9 -0.331" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="9 10 -0.331" rotation="0 150 0" value="Mercury" width="40"></a-text>
+
       <!-- Orbits -->
       <a-torus height="0.5" color="white" radius="25" arc="360" radius-tubular="0.1" segments-radial="50" position="0.132 6.055 0.489" rotation="-90 0 0" material="" geometry="radius:6.53;radiusTubular:0.01">
       </a-torus><a-torus height="0.5" color="white" radius="25" arc="360" radius-tubular="0.1" segments-radial="50" position="-9.093 5.262 -12.306" rotation="-50 0 0" geometry="radius:4.42;radiusTubular:0.01">
@@ -82,6 +94,8 @@
       <a-sphere src="#sun" position="0.172 6.171 0.286" radius="5">
         <a-animation direction="alternate" attribute="position" from="0.172 6.171 0.286" to="0.172 9 0.286" repeat="3" begin="click"></a-animation>
       </a-sphere>
+      <a-text color="#fff" position="1.5 14 0.286" rotation="0 150 0" value="Sun" width="45"></a-text>
+      <!-- Sky -->
       <a-sky src="#sky"></a-sky>
     </a-scene>
   </body>
